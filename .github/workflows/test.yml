@@ -8,9 +8,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout
       - name: Setup Acton
-        uses: actonlang/setup-acton@v1
+        uses: actonlang/setup-acton
 
       - name: Build Project
         run: acton build
