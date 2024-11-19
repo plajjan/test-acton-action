@@ -1,0 +1,12 @@
+
+import testing
+
+def foo():
+    return 42
+
+actor main(env):
+    print("Hello World!")
+    env.exit(0)
+
+def _test_foo():
+    testing.assertEqual(foo(), 42)
