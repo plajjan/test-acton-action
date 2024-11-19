@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout
       - name: Setup Acton
-        uses: actonlang/setup-acton
+        uses: actonlang/setup-acton@main
 
       - name: Build Project
         run: acton build
